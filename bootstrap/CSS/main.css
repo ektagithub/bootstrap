@@ -1,0 +1,51 @@
+
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+*{
+    padding:0;
+    margin:0;
+}
+
+html{
+}
+body,a{
+  font-family: 'Open Sans', sans-serif,'Muli';  
+}
+h1,h2{
+   font-family: 'Slabo 27px', serif,'Lora';
+    
+}
+.jumbotron{
+    background-color: #BFFFDC;
+    color:#0A5450;
+}
+.img-fluid{
+    border-color: #000000;
+
+}
+
+nav{
+    background-color:#0A5450;
+}
+body{
+    background-color:#C3E4E8;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+}
+@media (max-height:800px){
+    footer { position: static; }
+}
+
+
+.social-icon img:hover{
+        background-color: #70CFD4;
+    }
+.fixed-bottom{
+    background-color: #094A46;
+    color:#ffffff;
+    line-height: 35px;
+}
+.btn-primary{
+    background-color: #246E60;
